@@ -120,3 +120,11 @@ a:active {
   background: #364f6b !important;
   border-color: ;
 }
+.bg-footer{
+  background-color: #364f6b;
+}
+.section-padding-footer{
+  position: relative;
+  padding: 3rem 0;
+  overflow: hidden;
+}
