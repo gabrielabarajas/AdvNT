@@ -58,7 +58,7 @@ br{line-height: 15px}
 ::-webkit-scrollbar-track {background-color: #e9edf0;border-left: 1px solid #ededed;}
 ::-webkit-scrollbar {width: 7px; background-color: #364f6b}
 ::-webkit-scrollbar-thumb {background-color: #364f6b;}
-a:hover, a:active {background-color: #364f6b; text-decoration: none;}
+a:hover, a:active {background-color: none; text-decoration: none;}
 a:focus, a:active, button:focus, button:active, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none;text-decoration: none}
 .form-control::placeholder {color: #c2c2c2;opacity: 1;}  .form-control:-ms-input-placeholder {color: #c2c2c2;}  .form-control::-ms-input-placeholder {color: #c2c2c2;}
 a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
@@ -1910,6 +1910,10 @@ ul.packages li {
     line-height: 40px;
     list-style-type: none;
     color: #232323;
+}
+.liStrategy{
+    list-style-type: disc;
+    margin: 10px;
 }
 ul.packages li i {
     display: inline-block;
